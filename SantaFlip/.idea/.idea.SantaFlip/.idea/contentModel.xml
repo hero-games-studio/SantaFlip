@@ -36,23 +36,18 @@
             </e>
           </e>
         </e>
-        <e p="ParticleEffect" t="Include">
-          <e p="_Creepy_Cat" t="Include">
-            <e p="3D Games Effects Pack Free" t="Include">
-              <e p="_FAQ - Informations" t="Include">
-                <e p="Help Readme SOS.txt" t="Include" />
-              </e>
-              <e p="Example_02" t="Include">
-                <e p="Help Readme SOS.txt" t="Include" />
-                <e p="InstanceExample.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
-          <e p="BuildingScript.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="Player.cs" t="Include" />
+          <e p="Other" t="Include">
+            <e p="BuildingScript.cs" t="Include" />
+            <e p="GameEnd.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="ObjectPooler.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="ComboController.cs" t="Include" />
+            <e p="GiftController.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

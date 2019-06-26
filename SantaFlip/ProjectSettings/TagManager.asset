@@ -7,6 +7,9 @@ TagManager:
   - Death
   - Ground
   - GameManager
+  - EndGame
+  - Combo
+  - Chimney
   layers:
   - Default
   - TransparentFX

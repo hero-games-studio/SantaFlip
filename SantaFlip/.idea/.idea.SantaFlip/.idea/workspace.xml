@@ -4,9 +4,137 @@
     <list default="true" id="a69aa286-8fea-43af-b9ed-031e1af2b532" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_01/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For One Shoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For One Shoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For Particle Delay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help For Particle Delay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help Readme SOS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help Readme SOS.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/InstanceExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/InstanceExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Instanciate_01.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Instanciate_01.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Help Readme SOS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Help Readme SOS.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle For One Shoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle For One Shoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Loop Remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Loop Remove.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Start Delay Remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle Start Delay Remove.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01_8x4-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01_8x4-32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02_8x6-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02_8x6-48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03_8x4-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03_8x4-32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04_8x4-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04_8x4-32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05_8x8-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05_8x8-64.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06_8x6-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06_8x6-48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07_8x8-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07_8x8-64.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08_8x4-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08_8x4-32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_06.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_06.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_07.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_07.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_08.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_08.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Logo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Logo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/DarkGrey_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/DarkGrey_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Diffuse_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Diffuse_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Neon_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Neon_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Transparent.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/Transparent.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/_CreepyLogo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Materials/_CreepyLogo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Corridor_01.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Corridor_01.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Separator_01.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Separator_01.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Separator_03.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Separator_03.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Wall_01.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Mesh/Wall_01.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/CreatedCubemap.cubemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/CreatedCubemap.cubemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Diffuse_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Diffuse_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Neon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Neon_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Normal_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/_Creepy_Cat/3D Games Effects Pack Free/_ShowRoom/Textures/Normal_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WorkPlace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WorkPlace.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Target.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Target.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,109 +144,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
-              <folding>
-                <marker date="1561457583614" expanded="false" signature="6:140" ph="..." />
-                <marker date="1561457583614" expanded="true" signature="177:4645" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="494:642" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="674:1163" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="713:910" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="931:1121" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1182:2246" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1308:1484" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1407:1474" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1498:1675" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1598:1665" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1696:2166" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1748:1816" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1863:1930" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="1977:2044" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2091:2156" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2179:2232" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2281:2809" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2328:2548" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2587:2803" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2834:2942" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2865:2936" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="2946:3073" ph="/* private IEnumerator JumpSpeed() ... */" />
-                <marker date="1561457583614" expanded="true" signature="3111:3302" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="3163:3296" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="3351:4482" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="3403:4476" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="3502:3771" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="3532:3606" ph="/* Debug.Log(&quot;Death&quot;); ... */" />
-                <marker date="1561457583614" expanded="true" signature="3855:3986" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="4069:4199" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="4279:4408" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="4530:4642" ph="{...}" />
-                <marker date="1561457583614" expanded="true" signature="4582:4635" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-              <folding>
-                <marker date="1561387060635" expanded="false" signature="6:78" ph="..." />
-                <marker date="1561387060635" expanded="true" signature="120:275" ph="{...}" />
-                <marker date="1561387060635" expanded="true" signature="212:233" ph="{...}" />
-                <marker date="1561387060635" expanded="true" signature="252:273" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <marker date="1561388920385" expanded="false" signature="6:92" ph="..." />
-                <marker date="1561388920385" expanded="true" signature="137:876" ph="{...}" />
-                <marker date="1561388920385" expanded="true" signature="271:350" ph="{...}" />
-                <marker date="1561388920385" expanded="true" signature="408:548" ph="{...}" />
-                <marker date="1561388920385" expanded="true" signature="480:542" ph="{...}" />
-                <marker date="1561388920385" expanded="true" signature="600:874" ph="{...}" />
-                <marker date="1561388920385" expanded="true" signature="652:868" ph="{...}" />
-                <marker date="1561388920385" expanded="true" signature="767:858" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/BuildingScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRotateController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/GameEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/ComboController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/GiftController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/BuildingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
-    <option name="width" value="968" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -136,6 +196,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,12 +236,16 @@
       <updated>1561371412553</updated>
       <workItem from="1561371417986" duration="6771000" />
       <workItem from="1561384949884" duration="5148000" />
-      <workItem from="1561446939457" duration="9015000" />
+      <workItem from="1561446939457" duration="9425000" />
+      <workItem from="1561458807250" duration="3902000" />
+      <workItem from="1561471921616" duration="2996000" />
+      <workItem from="1561532747235" duration="1290000" />
+      <workItem from="1561535834534" duration="18414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20934000" />
+    <option name="totallyTimeSpent" value="47946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,8 +257,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="0" width="968" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -201,7 +265,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -242,75 +306,179 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Player.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerRotateController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state>
           <folding>
-            <marker date="1561387060635" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561387060635" expanded="true" signature="120:275" ph="{...}" />
-            <marker date="1561387060635" expanded="true" signature="212:233" ph="{...}" />
-            <marker date="1561387060635" expanded="true" signature="252:273" ph="{...}" />
+            <marker date="1561470168486" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561470168486" expanded="true" signature="133:307" ph="{...}" />
+            <marker date="1561470168486" expanded="true" signature="205:226" ph="{...}" />
+            <marker date="1561470168486" expanded="true" signature="284:305" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameEnd.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state>
           <folding>
-            <marker date="1561388920385" expanded="false" signature="6:92" ph="..." />
-            <marker date="1561388920385" expanded="true" signature="137:876" ph="{...}" />
-            <marker date="1561388920385" expanded="true" signature="271:350" ph="{...}" />
-            <marker date="1561388920385" expanded="true" signature="408:548" ph="{...}" />
-            <marker date="1561388920385" expanded="true" signature="480:542" ph="{...}" />
-            <marker date="1561388920385" expanded="true" signature="600:874" ph="{...}" />
-            <marker date="1561388920385" expanded="true" signature="652:868" ph="{...}" />
-            <marker date="1561388920385" expanded="true" signature="767:858" ph="{...}" />
+            <marker date="1561540307408" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561540307408" expanded="true" signature="116:298" ph="{...}" />
+            <marker date="1561540307408" expanded="true" signature="169:296" ph="{...}" />
+            <marker date="1561540307408" expanded="true" signature="221:290" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ComboController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        <state relative-caret-position="496">
+          <caret line="169" column="85" selection-start-line="169" selection-start-column="85" selection-end-line="169" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildingScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/Player/PlayerMovementController.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GiftController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1561457583614" expanded="false" signature="6:140" ph="..." />
-            <marker date="1561457583614" expanded="true" signature="177:4645" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="494:642" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="674:1163" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="713:910" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="931:1121" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1182:2246" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1308:1484" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1407:1474" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1498:1675" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1598:1665" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1696:2166" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1748:1816" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1863:1930" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="1977:2044" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2091:2156" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2179:2232" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2281:2809" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2328:2548" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2587:2803" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2834:2942" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2865:2936" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="2946:3073" ph="/* private IEnumerator JumpSpeed() ... */" />
-            <marker date="1561457583614" expanded="true" signature="3111:3302" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="3163:3296" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="3351:4482" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="3403:4476" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="3502:3771" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="3532:3606" ph="/* Debug.Log(&quot;Death&quot;); ... */" />
-            <marker date="1561457583614" expanded="true" signature="3855:3986" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="4069:4199" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="4279:4408" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="4530:4642" ph="{...}" />
-            <marker date="1561457583614" expanded="true" signature="4582:4635" ph="{...}" />
+            <marker date="1561560594201" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561560594201" expanded="true" signature="123:306" ph="{...}" />
+            <marker date="1561560594201" expanded="true" signature="199:304" ph="{...}" />
+            <marker date="1561560594201" expanded="true" signature="251:298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/BuildingScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <marker date="1561557942003" expanded="false" signature="6:92" ph="..." />
+            <marker date="1561557942003" expanded="true" signature="137:359" ph="{...}" />
+            <marker date="1561557942003" expanded="true" signature="248:357" ph="{...}" />
+            <marker date="1561557942003" expanded="true" signature="300:351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <marker date="1561559836759" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561559836759" expanded="true" signature="124:712" ph="{...}" />
+            <marker date="1561559836759" expanded="true" signature="293:346" ph="{...}" />
+            <marker date="1561559836759" expanded="true" signature="404:494" ph="{...}" />
+            <marker date="1561559836759" expanded="true" signature="544:710" ph="{...}" />
+            <marker date="1561559836759" expanded="true" signature="595:704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <marker date="1561560670124" expanded="false" signature="6:140" ph="..." />
+            <marker date="1561560670124" expanded="true" signature="177:5752" ph="{...}" />
+            <marker date="1561560670124" expanded="false" signature="189:441" ph="Singleton" />
+            <marker date="1561560670124" expanded="true" signature="268:425" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="304:353" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="366:419" ph="{...}" />
+            <marker date="1561560670124" expanded="false" signature="854:1397" ph="{...}" />
+            <marker date="1561560670124" expanded="false" signature="1427:1512" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="1544:1573" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="1592:1763" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="1606:1694" ph="/* if (transform.position.y &lt; -1) ... */" />
+            <marker date="1561560670124" expanded="true" signature="1790:2449" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="1822:2324" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="1869:2082" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2107:2313" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2387:2437" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2480:2796" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2527:2669" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2708:2790" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2827:3784" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2854:3030" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="2953:3020" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3044:3221" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3144:3211" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3242:3712" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3294:3362" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3409:3476" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3523:3590" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3637:3702" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3725:3778" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3802:4075" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="3833:4069" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="4113:4195" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="4244:5368" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="4313:5238" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="4412:4523" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="4708:4777" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="4968:5035" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="5159:5227" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="5292:5353" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="5421:5589" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="5473:5583" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="5637:5749" ph="{...}" />
+            <marker date="1561560670124" expanded="true" signature="5689:5742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <marker date="1561561252162" expanded="false" signature="6:97" ph="..." />
+            <marker date="1561561252162" expanded="true" signature="139:1884" ph="{...}" />
+            <marker date="1561561252162" expanded="false" signature="146:403" ph="Singleton" />
+            <marker date="1561561252162" expanded="true" signature="230:387" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="266:315" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="328:381" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="756:828" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="864:1440" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="924:1434" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="979:1424" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1096:1410" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1177:1270" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1295:1392" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1473:1882" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1532:1876" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1581:1866" ph="{...}" />
+            <marker date="1561561252162" expanded="true" signature="1738:1852" ph="{...}" />
           </folding>
         </state>
       </provider>
