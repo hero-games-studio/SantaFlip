@@ -201,7 +201,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Ground" && startBuilding)
+        if (other.gameObject.tag == "Ground" && startBuilding && !isDead)
         {
 
             if (transform.eulerAngles.z > 45 && transform.eulerAngles.z < 315)

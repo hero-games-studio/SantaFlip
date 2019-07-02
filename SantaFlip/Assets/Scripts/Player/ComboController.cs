@@ -26,6 +26,7 @@ public class ComboController : MonoBehaviour
         {
             if (!Player.Instance.isDead)
             {
+                Debug.Log("Combo");
                 StartCoroutine(UIManager.Instance.ShowComboText());
                 GameManager.Instance.combo += 1;
             }

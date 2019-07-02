@@ -2,463 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69aa286-8fea-43af-b9ed-031e1af2b532" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SantaFlip/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Editor/PackageManagerAssembly.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageImportList.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageImportList.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/LightningParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/LightningParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaFireParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaFireParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeLightParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeLightParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameParticleSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameParticleSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundGreyParticleSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundGreyParticleSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundParticleSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundParticleSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/LightningParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/LightningParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/RoundSoftParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/RoundSoftParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuff02ParticleSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuff02ParticleSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/DustMoteParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/DustMoteParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/SandSwirlsParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/SandSwirlsParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/Spark2Particle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/Spark2Particle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/SparkParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Materials/SparkParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/ElectricalSparksEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/ElectricalSparksEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/SandSwirlsEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/SandSwirlsEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Textures/DustMoteParticle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Textures/DustMoteParticle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Textures/SparkParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Textures/SparkParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Profiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Profiles/EffectsProfile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Profiles/EffectsProfile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Readme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Background.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Background.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/DarkDefault.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/DarkDefault.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/FleshSurface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/FleshSurface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/MetalSurface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/MetalSurface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/SandSurface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/SandSurface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Skybox.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Skybox.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/StoneSurface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/StoneSurface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/WoodSurface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/WoodSurface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/BackGround.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/BackGround.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/FPSWeapon.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/FPSWeapon.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/LowMan.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/LowMan.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/No Name.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/No Name.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Flesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Flesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Metal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Metal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Sand.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Sand.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Stone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Stone.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Wood.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Wood.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunAim.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunAim.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunShoot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunShoot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/fleshNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/fleshNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/SmokeTrail.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/SmokeTrail.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Icons/Help_Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Icons/Help_Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Icons/ParticlePack5x_Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Icons/ParticlePack5x_Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/StormCloudParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/StormCloudParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterDropParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterDropParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterMistParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterMistParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterRipplesParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterRipplesParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterTrailParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Materials/WaterTrailParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Models/ImpactSplash.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Models/ImpactSplash.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Models/WaterFaucet.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Models/WaterFaucet.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/RainEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/RainEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/StormCloudEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/StormCloudEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/WaterDripEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/WaterDripEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/WaterfallEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/WaterfallEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/WaterfallSmallEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Prefabs/WaterfallSmallEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/CloudsParticleNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/CloudsParticleNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/CloudsParticleSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/CloudsParticleSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/ImpactSplashParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/ImpactSplashParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterDropParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterDropParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterMistParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterMistParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterRipplesParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterRipplesParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterTrailParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WaterEffects/Textures/WaterTrailParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/Materials/No Name.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/Materials/No Name.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grey 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grey 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EndBuilding.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EndBuilding.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/StartBuilding.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/StartBuilding.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Christmas Gifts/Materials/boxes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Christmas Gifts/Materials/boxes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Christmas Gifts/Textures/boxes.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Christmas Gifts/Textures/boxes.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FarlandSkies/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Right.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FarlandSkies/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Meshtint Free Santa Claus/FBX/Meshtint Free Santa Claus.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Meshtint Free Santa Claus/FBX/Meshtint Free Santa Claus.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/Billboard_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/Billboard_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Glass_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Glass_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Glass_Veh_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Glass_Veh_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_01_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_01_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_01_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_01_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_01_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_02_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_02_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_02_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_02_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_02_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_02_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_03_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_03_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_03_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_03_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_03_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_03_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_04_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_04_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_04_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_04_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_04_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_04_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonCity/Materials/PolygonCity_Mat_Road_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Buildings/Background/BuildingBackground_V3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Buildings/Background/BuildingBackground_V3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Buildings/Small/Building_V2_Small.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Buildings/Small/Building_V2_Small.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WorkPlace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WorkPlace.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shader/Fog.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shader/Fog.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Helpers/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Helpers/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/LensFlare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/LensFlare/VfxLensFlare.flare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/LensFlare/VfxLensFlare.flare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/LensFlare/VfxLensFlare.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/LensFlare/VfxLensFlare.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehHex.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehHex.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehHexAlpha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehHexAlpha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehQuint.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehQuint.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehQuintAlpha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/BokehQuintAlpha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/CamFlash.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/CamFlash.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/CopperSpark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/CopperSpark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/DustCircle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/DustCircle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/FireSpark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/FireSpark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/LightningBoltsAlpha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/LightningBoltsAlpha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Particles Mobile Add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Particles Mobile Add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Particles Mobile Alpha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Particles Mobile Alpha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmashCracksMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmashCracksMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuff3Alpha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuff3Alpha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuffs1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuffs1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuffs2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuffs2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuffs3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/SmokePuffs3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Star4Points.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Star4Points.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/StarThin.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/StarThin.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/StarWide.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/StarWide.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/bokeh_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/bokeh_round.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/bolt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/bolts-spritesheet-1x6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/bolts-spritesheet-1x6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/cam-flash-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/cam-flash-1024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/dust-circ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/dust-circ.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/hex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/hex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/pent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/pent.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smash-cracks-normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smash-cracks-normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smash-cracks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smash-cracks.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smokepuff1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smokepuff1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smokepuff2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smokepuff2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smokepuff3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/smokepuff3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/sparkShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/sparkShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/sparkedmetal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/sparkedmetal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starFourPoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starFourPoints.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starMedium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starMedium.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starSevenPoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starSevenPoints.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starSixPoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starSixPoints.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starSixPointsThin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starSixPointsThin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starThick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starThick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starThin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starThin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starThreePoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Materials/Textures/starThreePoints.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/ParticleLoops.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/ParticleLoops.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/ParticleTrail.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/ParticleTrail.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/TopScoreParticles.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/TopScoreParticles.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoltLightning.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoltLightning.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoomFireworks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoomFireworks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoomSparks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoomSparks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoomSparks2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBoomSparks2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBrightSparks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBrightSparks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBrightStars.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxBrightStars.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxFloorCracks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxFloorCracks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxHitSparks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxHitSparks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleBokeh1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleBokeh1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleBokeh2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleBokeh2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleBoom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleBoom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleCamFlashes.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleCamFlashes.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleLoResDust.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxParticleLoResDust.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxStarWide.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxStarWide.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxStarsFourPointsColor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxStarsFourPointsColor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxStarsThin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/Prefabs/VfxStarsThin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/RotateFlareHolder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/RotateFlareHolder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/SCENES.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/SCENES/Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/SCENES/Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/SCENES/ParticleEffectExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter Particle Pack/SCENES/ParticleEffectExamples.unity.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -473,61 +188,61 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="176" column="64" selection-start-line="176" selection-start-column="64" selection-end-line="176" selection-end-column="64" />
+                <state relative-caret-position="440">
+                  <caret line="203" column="72" selection-start-line="203" selection-start-column="72" selection-end-line="203" selection-end-column="72" />
                   <folding>
-                    <marker date="1562061244792" expanded="false" signature="6:140" ph="..." />
-                    <marker date="1562061244792" expanded="true" signature="177:7589" ph="{...}" />
-                    <marker date="1562061244792" expanded="false" signature="189:441" ph="Singleton" />
-                    <marker date="1562061244792" expanded="true" signature="268:425" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="304:353" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="366:419" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="942:1553" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1588:1632" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1664:1744" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1691:1738" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1763:1831" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1858:2517" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1890:2392" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="1937:2150" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2175:2381" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2455:2505" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2548:3044" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2596:2738" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2777:2859" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2926:2975" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="2988:3038" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3075:4032" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3102:3278" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3201:3268" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3292:3469" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3392:3459" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3490:3960" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3542:3610" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3657:3724" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3771:3838" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3885:3950" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="3973:4026" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="4050:4936" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="4081:4921" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="4225:4320" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="4380:4475" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="4513:4607" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="4974:5056" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="5105:6893" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="5174:6633" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="5264:5357" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="5565:5751" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="5963:6096" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="6217:6430" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="6456:6623" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="6687:6878" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="6944:7426" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="6996:7420" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="7079:7398" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="7293:7384" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="7474:7586" ph="{...}" />
-                    <marker date="1562061244792" expanded="true" signature="7526:7579" ph="{...}" />
+                    <marker date="1562074357440" expanded="false" signature="6:140" ph="..." />
+                    <marker date="1562074357440" expanded="true" signature="177:7600" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="189:441" ph="Singleton" />
+                    <marker date="1562074357440" expanded="true" signature="268:425" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="304:353" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="366:419" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="942:1553" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1588:1632" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1664:1744" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1691:1738" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1763:1831" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1858:2517" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1890:2392" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="1937:2150" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2175:2381" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2455:2505" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2548:3044" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2596:2738" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2777:2859" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2926:2975" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="2988:3038" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3075:4032" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3102:3278" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3201:3268" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3292:3469" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3392:3459" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3490:3960" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3542:3610" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3657:3724" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3771:3838" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3885:3950" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="3973:4026" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="4050:4936" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="4081:4921" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="4225:4320" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="4380:4475" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="4513:4607" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="4974:5056" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="5105:6904" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="5185:6644" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="5275:5368" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="5576:5762" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="5974:6107" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="6228:6441" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="6467:6634" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="6698:6889" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="6955:7437" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="7007:7431" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="7090:7409" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="7304:7395" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="7485:7597" ph="{...}" />
+                    <marker date="1562074357440" expanded="true" signature="7537:7590" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -551,7 +266,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/BuildingScript.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
+                <state relative-caret-position="85">
                   <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
                   <folding>
                     <marker date="1561719315070" expanded="false" signature="6:92" ph="..." />
@@ -566,7 +281,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/CameraShake.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
+                <state relative-caret-position="136">
                   <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
                   <folding>
                     <marker date="1561645073624" expanded="false" signature="6:123" ph="..." />
@@ -590,42 +305,42 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="831">
-                  <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
+                <state relative-caret-position="432">
+                  <caret line="129" column="64" selection-start-line="129" selection-start-column="64" selection-end-line="129" selection-end-column="64" />
                   <folding>
-                    <marker date="1561988389193" expanded="false" signature="6:159" ph="..." />
-                    <marker date="1561988389193" expanded="true" signature="201:5108" ph="{...}" />
-                    <marker date="1561988389193" expanded="false" signature="208:518" ph="Singleton" />
-                    <marker date="1561988389193" expanded="true" signature="292:502" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="381:430" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="443:496" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1006:1082" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1113:1216" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1252:2071" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1312:2065" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1367:2055" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1442:2041" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1555:2023" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1644:1789" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="1818:1970" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2103:2225" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2150:2219" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2255:2375" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2297:2369" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2407:3190" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2466:3184" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2515:3174" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2824:3160" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="2877:3142" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="3229:3648" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="3573:3642" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="3683:3721" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="3756:3790" ph="{...}" />
-                    <marker date="1561988389193" expanded="true" signature="3800:3935" ph="/* public IEnumerator RestartGame() ... */" />
-                    <marker date="1561988389193" expanded="true" signature="3945:5106" ph="/* if (transform.rotation.z &gt; 0.3 || transform.rotation.z &lt; - 0.3) ... */" />
+                    <marker date="1562074926268" expanded="false" signature="6:159" ph="..." />
+                    <marker date="1562074926268" expanded="true" signature="201:5174" ph="{...}" />
+                    <marker date="1562074926268" expanded="false" signature="208:518" ph="Singleton" />
+                    <marker date="1562074926268" expanded="true" signature="292:502" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="381:430" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="443:496" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1006:1082" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1113:1216" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1252:2072" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1312:2066" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1367:2056" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1443:2042" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1556:2024" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1645:1790" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="1819:1971" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2104:2226" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2151:2220" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2256:2376" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2298:2370" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2408:3191" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2467:3185" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2516:3175" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2825:3161" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="2878:3143" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="3230:3714" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="3639:3708" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="3749:3787" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="3822:3856" ph="{...}" />
+                    <marker date="1562074926268" expanded="true" signature="3866:4001" ph="/* public IEnumerator RestartGame() ... */" />
+                    <marker date="1562074926268" expanded="true" signature="4011:5172" ph="/* if (transform.rotation.z &gt; 0.3 || transform.rotation.z &lt; - 0.3) ... */" />
                   </folding>
                 </state>
               </provider>
@@ -634,48 +349,49 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1326">
-                  <caret line="105" column="5" selection-start-line="98" selection-start-column="3" selection-end-line="105" selection-end-column="5" />
+                <state relative-caret-position="408">
+                  <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
                   <folding>
-                    <marker date="1561731915977" expanded="false" signature="6:148" ph="..." />
-                    <marker date="1561731915977" expanded="true" signature="188:3873" ph="{...}" />
-                    <marker date="1561731915977" expanded="false" signature="195:372" ph="Singleton" />
-                    <marker date="1561731915977" expanded="true" signature="277:356" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="929:985" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1020:1153" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1188:1238" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1275:1326" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1356:1433" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1467:1514" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1549:1635" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1667:1729" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1761:1847" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1877:1924" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="1964:2325" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="2379:2914" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="2960:3242" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="3282:3549" ph="{...}" />
-                    <marker date="1561731915977" expanded="true" signature="3591:3866" ph="{...}" />
+                    <marker date="1562071490030" expanded="false" signature="6:148" ph="..." />
+                    <marker date="1562071490030" expanded="true" signature="188:3873" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="195:372" ph="Singleton" />
+                    <marker date="1562071490030" expanded="true" signature="277:356" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="929:985" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1020:1153" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1188:1238" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1275:1326" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1356:1433" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1467:1514" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1549:1635" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1667:1729" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1761:1847" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1877:1924" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="1964:2325" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="2379:2914" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="2960:3242" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="3282:3549" ph="{...}" />
+                    <marker date="1562071490030" expanded="true" signature="3591:3866" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+                <state relative-caret-position="612">
+                  <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
                   <folding>
-                    <marker date="1561643701376" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1561643701376" expanded="true" signature="124:1168" ph="{...}" />
-                    <marker date="1561643701376" expanded="false" signature="131:392" ph="Singleton" />
-                    <marker date="1561643701376" expanded="true" signature="219:376" ph="{...}" />
-                    <marker date="1561643701376" expanded="true" signature="255:304" ph="{...}" />
-                    <marker date="1561643701376" expanded="true" signature="317:370" ph="{...}" />
-                    <marker date="1561643701376" expanded="true" signature="491:645" ph="{...}" />
-                    <marker date="1561643701376" expanded="true" signature="686:901" ph="{...}" />
-                    <marker date="1561643701376" expanded="true" signature="946:1161" ph="{...}" />
+                    <marker date="1562074901636" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1562074901636" expanded="true" signature="124:1524" ph="{...}" />
+                    <marker date="1562074901636" expanded="false" signature="131:392" ph="Singleton" />
+                    <marker date="1562074901636" expanded="true" signature="219:376" ph="{...}" />
+                    <marker date="1562074901636" expanded="true" signature="255:304" ph="{...}" />
+                    <marker date="1562074901636" expanded="true" signature="317:370" ph="{...}" />
+                    <marker date="1562074901636" expanded="true" signature="526:749" ph="{...}" />
+                    <marker date="1562074901636" expanded="true" signature="790:1005" ph="{...}" />
+                    <marker date="1562074901636" expanded="true" signature="1050:1265" ph="{...}" />
+                    <marker date="1562074901636" expanded="true" signature="1308:1517" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -684,7 +400,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/ObjectPooler.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
+                <state relative-caret-position="493">
                   <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
                   <folding>
                     <marker date="1526204290000" expanded="false" signature="6:78" ph="..." />
@@ -709,16 +425,16 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                <state relative-caret-position="442">
+                  <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
                   <folding>
-                    <marker date="1561982614746" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1561982614746" expanded="true" signature="124:809" ph="{...}" />
-                    <marker date="1561982614746" expanded="true" signature="293:346" ph="{...}" />
-                    <marker date="1561982614746" expanded="true" signature="404:494" ph="{...}" />
-                    <marker date="1561982614746" expanded="true" signature="544:807" ph="{...}" />
-                    <marker date="1561982614746" expanded="true" signature="595:801" ph="{...}" />
-                    <marker date="1561982614746" expanded="true" signature="646:791" ph="{...}" />
+                    <marker date="1562074338158" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1562074338158" expanded="true" signature="124:845" ph="{...}" />
+                    <marker date="1562074338158" expanded="true" signature="293:346" ph="{...}" />
+                    <marker date="1562074338158" expanded="true" signature="404:494" ph="{...}" />
+                    <marker date="1562074338158" expanded="true" signature="544:843" ph="{...}" />
+                    <marker date="1562074338158" expanded="true" signature="595:837" ph="{...}" />
+                    <marker date="1562074338158" expanded="true" signature="646:827" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -727,7 +443,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
+                <state relative-caret-position="85">
                   <caret line="11" selection-start-line="11" selection-end-line="11" />
                   <folding>
                     <marker date="1561731484567" expanded="false" signature="6:91" ph="..." />
@@ -770,21 +486,22 @@
         <option value="$PROJECT_DIR$/Assets/ComboController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/GiftController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Other/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Other/BuildingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Other/Fog/GlobalFog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shader/Fog.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -854,12 +571,12 @@
       <workItem from="1561735636276" duration="846000" />
       <workItem from="1561751995345" duration="811000" />
       <workItem from="1561967293478" duration="15161000" />
-      <workItem from="1562057322535" duration="2405000" />
+      <workItem from="1562057322535" duration="5643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101581000" />
+    <option name="totallyTimeSpent" value="104819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,8 +588,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -947,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/Fog/GlobalFog.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/BuildingScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="85">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <marker date="1561719315070" expanded="false" signature="6:92" ph="..." />
@@ -960,7 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/CameraShake.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <marker date="1561645073624" expanded="false" signature="6:123" ph="..." />
@@ -979,94 +695,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
-          <folding>
-            <marker date="1561988389193" expanded="false" signature="6:159" ph="..." />
-            <marker date="1561988389193" expanded="true" signature="201:5108" ph="{...}" />
-            <marker date="1561988389193" expanded="false" signature="208:518" ph="Singleton" />
-            <marker date="1561988389193" expanded="true" signature="292:502" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="381:430" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="443:496" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1006:1082" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1113:1216" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1252:2071" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1312:2065" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1367:2055" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1442:2041" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1555:2023" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1644:1789" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="1818:1970" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2103:2225" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2150:2219" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2255:2375" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2297:2369" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2407:3190" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2466:3184" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2515:3174" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2824:3160" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="2877:3142" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="3229:3648" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="3573:3642" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="3683:3721" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="3756:3790" ph="{...}" />
-            <marker date="1561988389193" expanded="true" signature="3800:3935" ph="/* public IEnumerator RestartGame() ... */" />
-            <marker date="1561988389193" expanded="true" signature="3945:5106" ph="/* if (transform.rotation.z &gt; 0.3 || transform.rotation.z &lt; - 0.3) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="105" column="5" selection-start-line="98" selection-start-column="3" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <marker date="1561731915977" expanded="false" signature="6:148" ph="..." />
-            <marker date="1561731915977" expanded="true" signature="188:3873" ph="{...}" />
-            <marker date="1561731915977" expanded="false" signature="195:372" ph="Singleton" />
-            <marker date="1561731915977" expanded="true" signature="277:356" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="929:985" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1020:1153" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1188:1238" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1275:1326" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1356:1433" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1467:1514" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1549:1635" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1667:1729" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1761:1847" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1877:1924" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="1964:2325" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="2379:2914" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="2960:3242" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="3282:3549" ph="{...}" />
-            <marker date="1561731915977" expanded="true" signature="3591:3866" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <marker date="1561643701376" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561643701376" expanded="true" signature="124:1168" ph="{...}" />
-            <marker date="1561643701376" expanded="false" signature="131:392" ph="Singleton" />
-            <marker date="1561643701376" expanded="true" signature="219:376" ph="{...}" />
-            <marker date="1561643701376" expanded="true" signature="255:304" ph="{...}" />
-            <marker date="1561643701376" expanded="true" signature="317:370" ph="{...}" />
-            <marker date="1561643701376" expanded="true" signature="491:645" ph="{...}" />
-            <marker date="1561643701376" expanded="true" signature="686:901" ph="{...}" />
-            <marker date="1561643701376" expanded="true" signature="946:1161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/ObjectPooler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="493">
           <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <marker date="1526204290000" expanded="false" signature="6:78" ph="..." />
@@ -1087,25 +718,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <marker date="1561982614746" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561982614746" expanded="true" signature="124:809" ph="{...}" />
-            <marker date="1561982614746" expanded="true" signature="293:346" ph="{...}" />
-            <marker date="1561982614746" expanded="true" signature="404:494" ph="{...}" />
-            <marker date="1561982614746" expanded="true" signature="544:807" ph="{...}" />
-            <marker date="1561982614746" expanded="true" signature="595:801" ph="{...}" />
-            <marker date="1561982614746" expanded="true" signature="646:791" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GiftController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="85">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <marker date="1561731484567" expanded="false" signature="6:91" ph="..." />
@@ -1129,63 +744,165 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <marker date="1562071490030" expanded="false" signature="6:148" ph="..." />
+            <marker date="1562071490030" expanded="true" signature="188:3873" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="195:372" ph="Singleton" />
+            <marker date="1562071490030" expanded="true" signature="277:356" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="929:985" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1020:1153" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1188:1238" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1275:1326" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1356:1433" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1467:1514" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1549:1635" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1667:1729" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1761:1847" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1877:1924" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="1964:2325" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="2379:2914" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="2960:3242" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="3282:3549" ph="{...}" />
+            <marker date="1562071490030" expanded="true" signature="3591:3866" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ComboController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <marker date="1562074338158" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562074338158" expanded="true" signature="124:845" ph="{...}" />
+            <marker date="1562074338158" expanded="true" signature="293:346" ph="{...}" />
+            <marker date="1562074338158" expanded="true" signature="404:494" ph="{...}" />
+            <marker date="1562074338158" expanded="true" signature="544:843" ph="{...}" />
+            <marker date="1562074338158" expanded="true" signature="595:837" ph="{...}" />
+            <marker date="1562074338158" expanded="true" signature="646:827" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="176" column="64" selection-start-line="176" selection-start-column="64" selection-end-line="176" selection-end-column="64" />
+        <state relative-caret-position="440">
+          <caret line="203" column="72" selection-start-line="203" selection-start-column="72" selection-end-line="203" selection-end-column="72" />
           <folding>
-            <marker date="1562061244792" expanded="false" signature="6:140" ph="..." />
-            <marker date="1562061244792" expanded="true" signature="177:7589" ph="{...}" />
-            <marker date="1562061244792" expanded="false" signature="189:441" ph="Singleton" />
-            <marker date="1562061244792" expanded="true" signature="268:425" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="304:353" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="366:419" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="942:1553" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1588:1632" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1664:1744" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1691:1738" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1763:1831" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1858:2517" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1890:2392" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="1937:2150" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2175:2381" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2455:2505" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2548:3044" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2596:2738" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2777:2859" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2926:2975" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="2988:3038" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3075:4032" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3102:3278" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3201:3268" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3292:3469" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3392:3459" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3490:3960" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3542:3610" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3657:3724" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3771:3838" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3885:3950" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="3973:4026" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="4050:4936" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="4081:4921" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="4225:4320" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="4380:4475" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="4513:4607" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="4974:5056" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="5105:6893" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="5174:6633" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="5264:5357" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="5565:5751" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="5963:6096" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="6217:6430" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="6456:6623" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="6687:6878" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="6944:7426" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="6996:7420" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="7079:7398" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="7293:7384" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="7474:7586" ph="{...}" />
-            <marker date="1562061244792" expanded="true" signature="7526:7579" ph="{...}" />
+            <marker date="1562074357440" expanded="false" signature="6:140" ph="..." />
+            <marker date="1562074357440" expanded="true" signature="177:7600" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="189:441" ph="Singleton" />
+            <marker date="1562074357440" expanded="true" signature="268:425" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="304:353" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="366:419" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="942:1553" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1588:1632" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1664:1744" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1691:1738" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1763:1831" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1858:2517" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1890:2392" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="1937:2150" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2175:2381" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2455:2505" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2548:3044" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2596:2738" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2777:2859" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2926:2975" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="2988:3038" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3075:4032" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3102:3278" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3201:3268" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3292:3469" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3392:3459" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3490:3960" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3542:3610" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3657:3724" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3771:3838" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3885:3950" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="3973:4026" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="4050:4936" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="4081:4921" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="4225:4320" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="4380:4475" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="4513:4607" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="4974:5056" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="5105:6904" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="5185:6644" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="5275:5368" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="5576:5762" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="5974:6107" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="6228:6441" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="6467:6634" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="6698:6889" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="6955:7437" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="7007:7431" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="7090:7409" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="7304:7395" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="7485:7597" ph="{...}" />
+            <marker date="1562074357440" expanded="true" signature="7537:7590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="129" column="64" selection-start-line="129" selection-start-column="64" selection-end-line="129" selection-end-column="64" />
+          <folding>
+            <marker date="1562074926268" expanded="false" signature="6:159" ph="..." />
+            <marker date="1562074926268" expanded="true" signature="201:5174" ph="{...}" />
+            <marker date="1562074926268" expanded="false" signature="208:518" ph="Singleton" />
+            <marker date="1562074926268" expanded="true" signature="292:502" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="381:430" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="443:496" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1006:1082" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1113:1216" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1252:2072" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1312:2066" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1367:2056" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1443:2042" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1556:2024" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1645:1790" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="1819:1971" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2104:2226" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2151:2220" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2256:2376" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2298:2370" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2408:3191" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2467:3185" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2516:3175" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2825:3161" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="2878:3143" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="3230:3714" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="3639:3708" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="3749:3787" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="3822:3856" ph="{...}" />
+            <marker date="1562074926268" expanded="true" signature="3866:4001" ph="/* public IEnumerator RestartGame() ... */" />
+            <marker date="1562074926268" expanded="true" signature="4011:5172" ph="/* if (transform.rotation.z &gt; 0.3 || transform.rotation.z &lt; - 0.3) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Other/ParticleManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <marker date="1562074901636" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562074901636" expanded="true" signature="124:1524" ph="{...}" />
+            <marker date="1562074901636" expanded="false" signature="131:392" ph="Singleton" />
+            <marker date="1562074901636" expanded="true" signature="219:376" ph="{...}" />
+            <marker date="1562074901636" expanded="true" signature="255:304" ph="{...}" />
+            <marker date="1562074901636" expanded="true" signature="317:370" ph="{...}" />
+            <marker date="1562074901636" expanded="true" signature="526:749" ph="{...}" />
+            <marker date="1562074901636" expanded="true" signature="790:1005" ph="{...}" />
+            <marker date="1562074901636" expanded="true" signature="1050:1265" ph="{...}" />
+            <marker date="1562074901636" expanded="true" signature="1308:1517" ph="{...}" />
           </folding>
         </state>
       </provider>

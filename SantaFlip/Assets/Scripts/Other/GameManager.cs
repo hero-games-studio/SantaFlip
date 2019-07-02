@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         {
             if (BuildingsList[i].isPlayerOn)
             {
-               
+                
                 if (!Player.Instance.isDead)
                 {
                     _nextTarget = BuildingsList[i+1].target;
@@ -127,6 +127,7 @@ public class GameManager : MonoBehaviour
     
     public IEnumerator DeadAnim()
     {
+        StartCoroutine(ParticleManager.Instance.DeathEffects());
         Player.Instance._rb.constraints = RigidbodyConstraints.None;
         //Player.Instance._rb.AddExplosionForce(10,Vector3.zero,20);
         yield return new WaitForSeconds(1f);

@@ -63,12 +63,6 @@
             <e p="Fog.shader" t="Include" />
           </e>
         </e>
-        <e p="Starter Particle Pack" t="Include">
-          <e p="Helpers" t="Include">
-            <e p="readme.txt" t="Include" />
-          </e>
-          <e p="RotateFlareHolder.cs" t="Include" />
-        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
