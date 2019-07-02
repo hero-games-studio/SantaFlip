@@ -24,8 +24,11 @@ public class ComboController : MonoBehaviour
     {
         if (other.gameObject.tag == "Combo")
         {
-            GameManager.Instance.combo += 1;
-            GameManager.Instance.gift += 1;
+            if (!Player.Instance.isDead)
+            {
+                StartCoroutine(UIManager.Instance.ShowComboText());
+                GameManager.Instance.combo += 1;
+            }
         }
     }
 }

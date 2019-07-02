@@ -25,52 +25,52 @@ public class Player : MonoBehaviour
 
     #endregion
     
-    private Rigidbody _rb;
+    public Rigidbody _rb;
+        public Collider _collider;
     public float speed;
     private float rotationPowerTime;
     public bool _isTurn;
     private bool isStop = true;
+    private bool isFlying;
     public bool _isGrounded;
     private readonly  Vector3 _eulerAngleVelocity = new Vector3(0,0,460);
     private float frictionEffect;
-    private bool startBuilding;
-    
-    public float gravity;
-    public float height;
+    private bool startBuilding; //Its for starting to game.
+    private float desiredPosX;
 
+    public bool isDead;
     Vector3 CalculateLauncVelocity()
     {
-        
         float displacementY = GameManager.Instance._nextTarget.position.y - _rb.position.y;
-        Vector3 displacementXz = new Vector3(GameManager.Instance._nextTarget.position.x - _rb.position.x,0,GameManager.Instance._nextTarget.position.z-_rb.position.z);
+        Vector3 displacementXz = new Vector3(desiredPosX,0,GameManager.Instance._nextTarget.position.z-_rb.position.z);
         
-        Vector3 velocityY = Vector3.up * Mathf.Sqrt(-2 * gravity * height);
-        Vector3 velocityXz = displacementXz / (Mathf.Sqrt(-2 * height / gravity) + Mathf.Sqrt(2 * (displacementY - height) / gravity));
+        Vector3 velocityY = Vector3.up * Mathf.Sqrt(-2 * GameManager.Instance.gravity * GameManager.Instance.height);
+        Vector3 velocityXz = displacementXz / (Mathf.Sqrt(-2 * GameManager.Instance.height / GameManager.Instance.gravity) + Mathf.Sqrt(2 * (displacementY - GameManager.Instance.height) / GameManager.Instance.gravity));
 
         return velocityXz + velocityY;
     }
     
+    
     private void Start()
     {
-        _rb = GetComponent<Rigidbody>();
         _rb.useGravity = false;
     }
 
     private void FixedUpdate()
     {
-       DoFlip();
+        if (!isDead)
+        {
+            DoFlip();     
+        }
     }
 
     void Update()
     {
-       /* if (transform.position.y < -1)
-        {
-            Debug.Log("Havada");
-        }*/
-        
+
         FlipControl();
         
         SmoothFlip();
+
     }
 
     private void DoFlip()
@@ -97,7 +97,7 @@ public class Player : MonoBehaviour
     }
     private void FlipControl()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) )
          {
               _isTurn = true;
               isStop = false;
@@ -110,6 +110,16 @@ public class Player : MonoBehaviour
               _isTurn = false;
               isStop = true;
          }
+        
+        //ForAnim
+        if (transform.position.y > 3.9)
+        {
+            isFlying = true;
+        }
+        else
+        {
+            isFlying = false;
+        }
     }
 
     private void SmoothFlip()
@@ -160,11 +170,28 @@ public class Player : MonoBehaviour
     {
         if (_isGrounded)
         {
-            Physics.gravity = Vector3.up * gravity;
+            desiredPosX = GameManager.Instance._nextTarget.position.x - _rb.position.x;
+            
+            if(desiredPosX > 45)
+            {
+                GameManager.Instance.height = Random.Range(18,25);
+            }
+            else if(desiredPosX >= 15 && desiredPosX <= 45)
+            {
+                GameManager.Instance.height = Random.Range(14,17);
+            }
+            else if(desiredPosX < 15)
+            {
+                GameManager.Instance.height = Random.Range(9,12);
+            }
+           
+            Physics.gravity = Vector3.up * GameManager.Instance.gravity;
             _rb.useGravity = true;
-            //Yakınlık Uzaklıga göre Heighti ve Gravitiyi ayarlayabilirsin.
+            StartCoroutine(ParticleManager.Instance.JumpingEffects());
+            CameraShake.Instance.isAnimationPlaying = true;
             _rb.velocity = CalculateLauncVelocity();
         }
+        
     }
    
     private void PlayerMovement()
@@ -176,41 +203,68 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Ground" && startBuilding)
         {
-            
-            if (transform.rotation.z > 0.3 || transform.rotation.z < - 0.3)
+
+            if (transform.eulerAngles.z > 45 && transform.eulerAngles.z < 315)
             {
-                //Debug.Log("Death");
-                gameObject.SetActive(false);
+               isDead = true;
+               Debug.Log("death");
             } 
-            else if((transform.rotation.z < 0.3 || transform.rotation.z > - 0.3) && (transform.rotation.z > 0.21 || transform.rotation.z < - 0.21) && GameManager.Instance.combo != 0 )
+            else if(transform.eulerAngles.z >= 45 && transform.eulerAngles.z <= 315 || transform.eulerAngles.z >= 30 && transform.eulerAngles.z <= 330
+                    && GameManager.Instance.combo != 0)
             {
-                //Debug.Log("NearMiss");
+                GameManager.Instance.combo = 0;
+                StartCoroutine(UIManager.Instance.ShowNearMissText());
+                Debug.Log("nearmiss");
             } 
-            else if ((transform.rotation.z < 0.21 || transform.rotation.z > - 0.21) && (transform.rotation.z > 0.1305 || transform.rotation.z < - 0.1305) && GameManager.Instance.combo != 0)
+            else if ((transform.eulerAngles.z >= 30 && transform.eulerAngles.z <= 330) || (transform.eulerAngles.z > 15 && transform.eulerAngles.z < 345)
+                     && GameManager.Instance.combo != 0)
             {
-               // Debug.Log("Normal");
+               StartCoroutine(UIManager.Instance.ShowNormalText());
+               Debug.Log("normal");
+
             }
-            else if ((transform.rotation.z < 0.1305 || transform.rotation.z > - 0.1305) && GameManager.Instance.combo != 0)
+            else if ((transform.eulerAngles.z < 15 || transform.eulerAngles.z > 345) && GameManager.Instance.combo != 0)
             {
-               // Debug.Log("Perfect");
+                GameManager.Instance.combo = GameManager.Instance.combo + 1;
+                StartCoroutine(UIManager.Instance.ShowPerfectText());
+                Debug.Log("perfect");
             }
 
+            if (!isDead)
+            {
+                StartCoroutine(ParticleManager.Instance.LandingEffects());
+                CameraShake.Instance.isAnimationPlaying = true;
+            }
         }
         
         if (other.gameObject.tag == "Death")
         {
-            gameObject.SetActive(false);
+            isDead = true;
+            _rb.constraints = RigidbodyConstraints.None;
+            _collider.enabled = !_collider.enabled;
+            _rb.useGravity = true;
         }
         
     }
-
-    
+   
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Ground")
         {
-            transform.rotation = new Quaternion(0,0,0,0);
-            _isGrounded = true;
+            Vector3 zeroZ = new Vector3(1,1,0);
+            if (!isDead)
+            {
+                _isGrounded = true;
+                transform.rotation = new Quaternion(0,0,0,0);
+                transform.eulerAngles = Vector3.zero;
+                
+
+                if (!_isTurn)
+                {
+                    _rb.velocity = new Vector3(0,0,0);
+                }
+            }
+           
         }
     }
 
