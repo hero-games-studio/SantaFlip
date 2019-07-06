@@ -5,6 +5,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-       // Application.targetFrameRate = 60;
+        Application.targetFrameRate = 60;
         
         if (Instance == null)
         {
@@ -41,6 +42,31 @@ public class GameManager : MonoBehaviour
     private int numberOfGiftGiven;
     private bool isChimney;
 
+    
+    public enum STATE
+    {
+        Play,
+        Pause,
+        Dead
+    }
+    
+    public STATE state = STATE.Pause;
+    void FixedUpdate()
+    {
+        switch (state)
+        {
+            case STATE.Play:
+
+                break;
+            case STATE.Pause:
+                
+                break;
+            case STATE.Dead:
+             //   RestartGame();
+                break;
+        }
+        
+    }
     private void Start()
     {
         chimneyTextMan = GetComponentInChildren<TextMeshPro>();
@@ -48,6 +74,7 @@ public class GameManager : MonoBehaviour
     
     private void Update()
     {
+      
         BuidingsControl();
         
         ComboControl();
@@ -68,6 +95,9 @@ public class GameManager : MonoBehaviour
 
                     if (gameEnd)
                     {
+                        StartCoroutine(ParticleManager.Instance.GameEndEffects());
+                        UIManager.Instance.ShowLevelCompletePanel();
+                        
                         if (numberOfGiftGiven > RequiredGiftToEnd)
                         {
                             Debug.Log("GameEnd");
@@ -85,6 +115,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void StartGame()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            UIManager.Instance.HideGameStartPanel();
+        }
+    }
     private void RestartGame()
     {
         if (Input.GetMouseButtonDown(0))
@@ -97,7 +134,6 @@ public class GameManager : MonoBehaviour
         if (Player.Instance.isDead)
         {
             StartCoroutine(DeadAnim());
-           
         }
     }
     private void ComboControl()
@@ -116,15 +152,26 @@ public class GameManager : MonoBehaviour
                     if (isChimney)
                     {
                         StartCoroutine(UIManager.Instance.ShowGiftText(chimneyTargetMan));
-                        numberOfGiftGiven += combo;
-                        combo = 0;
-                        isChimney = false;
-                    }
+                        StartCoroutine("GiftGive");
+                    } 
                 }
             }
         }
     }
-    
+
+
+    private IEnumerator GiftGive()
+    {
+        Player.Instance.hasGift = true;
+        Player.Instance.speed = 1;
+        numberOfGiftGiven += combo;
+        combo = 0;
+        isChimney = false;
+        yield return new WaitForSeconds(1f);
+        Player.Instance.hasGift = false;
+        Player.Instance.speed = 13;
+
+    }
     public IEnumerator DeadAnim()
     {
         StartCoroutine(ParticleManager.Instance.DeathEffects());
@@ -133,11 +180,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Player.Instance.gameObject.SetActive(false);
         UIManager.Instance.ShowGameOverPanel();
-        
-        if (Input.GetMouseButtonDown(0))    
-        {
-            SceneManager.LoadScene("WorkPlace");
-        }
+        RestartGame();
     }
     public int GetFlipComboCount()
     {

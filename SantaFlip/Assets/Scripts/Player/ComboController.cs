@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class ComboController : MonoBehaviour
 {
-    private Rigidbody _rb;
-    private readonly  Vector3 _distance = new Vector3(0,1.3f,0);
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        _rb = GetComponent<Rigidbody>();
-    }
+    private readonly  Vector3 _distance = new Vector3(0,1.7f,0);
 
     // Update is called once per frame
     void Update()
@@ -24,12 +17,10 @@ public class ComboController : MonoBehaviour
     {
         if (other.gameObject.tag == "Combo")
         {
-            if (!Player.Instance.isDead)
-            {
-                Debug.Log("Combo");
-                StartCoroutine(UIManager.Instance.ShowComboText());
-                GameManager.Instance.combo += 1;
-            }
+             StartCoroutine(UIManager.Instance.ShowComboText());
+             GameManager.Instance.combo += 1;
         }
     }
+    
+    
 }

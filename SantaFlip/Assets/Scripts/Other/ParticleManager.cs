@@ -24,11 +24,13 @@ public class ParticleManager : MonoBehaviour
     public GameObject JumpingEffect;
     public GameObject LandingEffect;
     public GameObject DeathEffect;
+    public GameObject GameEndEffect;
     private void Start()
     {
        JumpingEffect = ObjectPooler.SharedInstance.GetPooledObject(0);
        LandingEffect = ObjectPooler.SharedInstance.GetPooledObject(1);
        DeathEffect = ObjectPooler.SharedInstance.GetPooledObject(2);
+       GameEndEffect = ObjectPooler.SharedInstance.GetPooledObject(3);
     }
 
     public IEnumerator JumpingEffects()
@@ -37,6 +39,13 @@ public class ParticleManager : MonoBehaviour
         JumpingEffect.SetActive(true);
         yield return new WaitForSeconds(1f);
         JumpingEffect.SetActive(false);
+    }
+    public IEnumerator GameEndEffects()
+    {
+        GameEndEffect.transform.position = Player.Instance.transform.position;
+        GameEndEffect.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        GameEndEffect.SetActive(false);
     }
     
     public IEnumerator LandingEffects()

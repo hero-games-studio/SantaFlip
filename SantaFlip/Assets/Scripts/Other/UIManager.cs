@@ -13,7 +13,6 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        Application.targetFrameRate = 30;
         Instance = this;
     }
 
@@ -22,6 +21,12 @@ public class UIManager : MonoBehaviour
     public GameObject revivePanel;
     [Header("GameOver Panel")]
     public GameObject gameOverPanel;
+    
+    [Header("LevelEnd Panel")]
+    public GameObject levelEndPanel;
+
+    [Header("GameStart Panel")]
+    public GameObject gameStartPanel;
     [Header("LevelComplete")]
     public GameObject levelCompletePanel;
 
@@ -34,9 +39,12 @@ public class UIManager : MonoBehaviour
     [Header("NearMiss Text ")]
     public GameObject nearMissText;
     
-    [Header("NearMiss Text ")]
+    [Header("Combo Text ")]
     public GameObject comboText;
     public TextMeshProUGUI flip;
+    
+    [Header("JumpText Text ")]
+    public GameObject jumpText;
     
 
     public void ShowLevelCompletePanel()
@@ -62,6 +70,11 @@ public class UIManager : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
     }
+    
+    public void HideGameStartPanel()
+    {
+        gameStartPanel.SetActive(false);
+    }
 
     public void SkipButton()
     {
@@ -75,9 +88,9 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void NextLevelButton()
+    public void ShowNextLevelPanel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        levelEndPanel.SetActive(true);
     }
 
     public void ReviveButton()
@@ -96,6 +109,13 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public IEnumerator ShowJumpText()
+    {
+        jumpText.gameObject.SetActive(true);
+      //  iTween.ShakePosition(jumpText, iTween.Hash("y", jumpText.transform.position.y - 1f,  "time", .5f, "easetype", "easeInOutElastic"));
+        yield return new WaitForSeconds(.5f);
+        jumpText.SetActive(false);
+    }
     public IEnumerator ShowComboText()
     {
         comboText.gameObject.SetActive(true);

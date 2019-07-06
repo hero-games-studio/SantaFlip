@@ -10,6 +10,7 @@ TagManager:
   - EndGame
   - Combo
   - Chimney
+  - JumpTarget
   layers:
   - Default
   - TransparentFX

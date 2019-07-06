@@ -24,9 +24,9 @@ public class Player : MonoBehaviour
     }
 
     #endregion
-    
+
     public Rigidbody _rb;
-        public Collider _collider;
+    public Collider _collider;
     public float speed;
     private float rotationPowerTime;
     public bool _isTurn;
@@ -37,8 +37,16 @@ public class Player : MonoBehaviour
     private float frictionEffect;
     private bool startBuilding; //Its for starting to game.
     private float desiredPosX;
-
     public bool isDead;
+    public Animator _Anim;
+    private bool isMoving;
+    private bool isJump;
+    public bool hasGift;
+    
+    
+    //ForAnimation
+    
+    
     Vector3 CalculateLauncVelocity()
     {
         float displacementY = GameManager.Instance._nextTarget.position.y - _rb.position.y;
@@ -66,11 +74,47 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-
-        FlipControl();
         
-        SmoothFlip();
+        if (!isMoving)
+        {
+            _Anim.SetBool("IsMoving", false);
+        }
+        else
+        {
+            _Anim.SetBool("IsMoving",true);
+            _Anim.SetBool("IsJump",false);
 
+        }
+
+        if (isFlying)
+        {
+            _Anim.SetBool("IsFlying", true);
+        }
+        else
+        {
+            _Anim.SetBool("IsFlying" , false);
+        }
+        
+        if (hasGift)
+        {
+            _Anim.SetBool("HasGift", true);
+        }
+        else
+        {
+            _Anim.SetBool("HasGift" , false);
+        }
+        
+        
+        if (!startBuilding)
+        {
+            isMoving = false;
+        }
+        
+        if (!isDead)
+        {
+            FlipControl();
+            SmoothFlip();
+        }
     }
 
     private void DoFlip()
@@ -99,11 +143,16 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) )
          {
+              GameManager.Instance.StartGame();
               _isTurn = true;
               isStop = false;
+              if (startBuilding)
+              {
+                  isJump = true;
+                  Lauch();
+              }
               startBuilding = true;
-
-              Lauch();
+             
          }
         if (Input.GetMouseButtonUp(0))
          {
@@ -111,15 +160,13 @@ public class Player : MonoBehaviour
               isStop = true;
          }
         
-        //ForAnim
-        if (transform.position.y > 3.9)
+        
+        if (transform.position.y > 5.5f)
         {
+            isMoving = false;
             isFlying = true;
         }
-        else
-        {
-            isFlying = false;
-        }
+       
     }
 
     private void SmoothFlip()
@@ -190,20 +237,26 @@ public class Player : MonoBehaviour
             StartCoroutine(ParticleManager.Instance.JumpingEffects());
             CameraShake.Instance.isAnimationPlaying = true;
             _rb.velocity = CalculateLauncVelocity();
+           
         }
         
     }
    
-    private void PlayerMovement()
+    public void PlayerMovement()
     {
-        transform.position += Vector3.right * Time.deltaTime * speed;
+        if (startBuilding)
+        {
+            transform.position += Vector3.right * Time.deltaTime * speed;
+            isMoving = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Ground" && startBuilding && !isDead)
         {
-
+            Debug.Log("Ground");
+            isJump = false;
             if (transform.eulerAngles.z > 45 && transform.eulerAngles.z < 315)
             {
                isDead = true;
@@ -245,12 +298,18 @@ public class Player : MonoBehaviour
             _rb.useGravity = true;
         }
         
+        if (other.gameObject.tag == "JumpTarget")
+        {
+            StartCoroutine(UIManager.Instance.ShowJumpText());
+        }
+        
     }
    
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Ground")
         {
+            isFlying = false;
             Vector3 zeroZ = new Vector3(1,1,0);
             if (!isDead)
             {
@@ -275,5 +334,4 @@ public class Player : MonoBehaviour
             _isGrounded = false;
         } 
     }
-
 }

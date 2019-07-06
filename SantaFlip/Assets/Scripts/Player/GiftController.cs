@@ -10,7 +10,7 @@ public class GiftController : MonoBehaviour
     public TextMeshPro chimneytext;
 
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
