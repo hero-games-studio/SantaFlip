@@ -11,6 +11,16 @@
         <e p="Confetti FX" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>
+        <e p="Fantasy Skybox FREE" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GE_FantasySkyboxFREE_Demo.cs" t="Include" />
+              <e p="GE_FantasySkyboxFREE_UIs.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fog and Ambient references.txt" t="Include" />
+          <e p="Readme.txt" t="Include" />
+        </e>
         <e p="FarlandSkies" t="Include">
           <e p="Demo" t="Include">
             <e p="Scripts" t="Include">
@@ -23,6 +33,17 @@
                 <e p="SkyboxRotator.cs" t="Include" />
               </e>
             </e>
+          </e>
+        </e>
+        <e p="GE Common Assets" t="Include">
+          <e p="GE Toggle Full Screen" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GE_ToggleFullScreenUI.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="GE_UIResponder.cs" t="Include" />
           </e>
         </e>
         <e p="Meshtint Free Santa Claus" t="Include">
@@ -67,13 +88,13 @@
             <e p="Fog.shader" t="Include" />
           </e>
         </e>
-        <e p="StylizedToonCharacters" t="Include">
-          <e p="DemoAssets" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="CameraOrbit.cs" t="Include" />
-              <e p="MenuController.cs" t="Include" />
-            </e>
+        <e p="Starter Particle Pack" t="Include">
+          <e p="Helpers" t="Include">
+            <e p="Readme.txt" t="Include" />
           </e>
+          <e p="RotateFlareHolder.cs" t="Include" />
+        </e>
+        <e p="StylizedToonCharacters" t="Include">
           <e p="SharedAssets" t="Include">
             <e p="AutoDynamicBones" t="Include">
               <e p="Editor" t="Include">

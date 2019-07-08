@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     public float gravity;
     public float height;
     public bool gameEnd;
-    private int numberOfGiftGiven;
+    public int numberOfGiftGiven;
     private bool isChimney;
 
     
@@ -88,25 +88,24 @@ public class GameManager : MonoBehaviour
         {
             if (BuildingsList[i].isPlayerOn)
             {
-                
+   
                 if (!Player.Instance.isDead)
                 {
                     _nextTarget = BuildingsList[i+1].target;
-
+                    
                     if (gameEnd)
                     {
                         StartCoroutine(ParticleManager.Instance.GameEndEffects());
+                        Player.Instance._Anim.SetBool("IsMoving" , false);
                         UIManager.Instance.ShowLevelCompletePanel();
                         
                         if (numberOfGiftGiven > RequiredGiftToEnd)
                         {
-                            Debug.Log("GameEnd");
-                            RestartGame();
+                            StartCoroutine("NextLevel");
                         }
                         else
                         {
-                            Debug.Log("You Cant Win!!");
-                            RestartGame();
+                            StartCoroutine("SameLevel");
                         }
                         break;
                     }
@@ -120,13 +119,15 @@ public class GameManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             UIManager.Instance.HideGameStartPanel();
+            UIManager.Instance.GiftNumber.gameObject.SetActive(true);
         }
     }
     private void RestartGame()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("WorkPlace");
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.buildIndex );
         }
     }
     private void PlayerDead()
@@ -152,25 +153,38 @@ public class GameManager : MonoBehaviour
                     if (isChimney)
                     {
                         StartCoroutine(UIManager.Instance.ShowGiftText(chimneyTargetMan));
-                        StartCoroutine("GiftGive");
+                        StartCoroutine(ParticleManager.Instance.GiftEffects());
+                        numberOfGiftGiven += combo;
+                        combo = 0;
+                        isChimney = false;
                     } 
                 }
             }
         }
     }
 
-
-    private IEnumerator GiftGive()
+    public IEnumerator NextLevel()
     {
-        Player.Instance.hasGift = true;
-        Player.Instance.speed = 1;
-        numberOfGiftGiven += combo;
-        combo = 0;
-        isChimney = false;
+        UIManager.Instance.ShowWinText();
         yield return new WaitForSeconds(1f);
-        Player.Instance.hasGift = false;
-        Player.Instance.speed = 13;
-
+        if (Input.GetMouseButtonDown(0))
+        {
+            UIManager.Instance.HideWinText();
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.buildIndex + 1);
+        }
+    }
+    
+    public IEnumerator SameLevel()
+    {
+        UIManager.Instance.ShowLoseText();
+        yield return new WaitForSeconds(1f);
+        if (Input.GetMouseButtonDown(0))
+        {
+            UIManager.Instance.HideLoseText();
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.buildIndex );
+        }
     }
     public IEnumerator DeadAnim()
     {

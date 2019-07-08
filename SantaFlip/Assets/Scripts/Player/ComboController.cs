@@ -5,7 +5,7 @@ using UnityEngine;
 public class ComboController : MonoBehaviour
 {
     private readonly  Vector3 _distance = new Vector3(0,1.7f,0);
-
+    public Rigidbody rb;
     // Update is called once per frame
     void Update()
     {
@@ -13,12 +13,15 @@ public class ComboController : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Combo")
         {
-             StartCoroutine(UIManager.Instance.ShowComboText());
-             GameManager.Instance.combo += 1;
+            if (!Player.Instance.isDead)
+            {
+                StartCoroutine(UIManager.Instance.ShowComboText());    
+                GameManager.Instance.combo += 1;
+            }
         }
     }
     

@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
     #endregion
@@ -41,7 +42,7 @@ public class Player : MonoBehaviour
     public Animator _Anim;
     private bool isMoving;
     private bool isJump;
-    public bool hasGift;
+    private bool hasGift;
     
     
     //ForAnimation
@@ -57,7 +58,7 @@ public class Player : MonoBehaviour
 
         return velocityXz + velocityY;
     }
-    
+
     
     private void Start()
     {
@@ -75,36 +76,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         
-        if (!isMoving)
-        {
-            _Anim.SetBool("IsMoving", false);
-        }
-        else
-        {
-            _Anim.SetBool("IsMoving",true);
-            _Anim.SetBool("IsJump",false);
+        Animation();
 
-        }
-
-        if (isFlying)
-        {
-            _Anim.SetBool("IsFlying", true);
-        }
-        else
-        {
-            _Anim.SetBool("IsFlying" , false);
-        }
-        
-        if (hasGift)
-        {
-            _Anim.SetBool("HasGift", true);
-        }
-        else
-        {
-            _Anim.SetBool("HasGift" , false);
-        }
-        
-        
         if (!startBuilding)
         {
             isMoving = false;
@@ -114,6 +87,37 @@ public class Player : MonoBehaviour
         {
             FlipControl();
             SmoothFlip();
+        }
+    }
+
+    private void Animation()
+    {
+        if (!isMoving)
+        {
+            _Anim.SetBool("IsMoving", false);
+        }
+        else
+        {
+            _Anim.SetBool("IsMoving", true);
+            _Anim.SetBool("IsJump", false);
+        }
+
+        if (isFlying)
+        {
+            _Anim.SetBool("IsFlying", true);
+        }
+        else
+        {
+            _Anim.SetBool("IsFlying", false);
+        }
+
+        if (hasGift)
+        {
+            _Anim.SetBool("HasGift", true);
+        }
+        else
+        {
+            _Anim.SetBool("HasGift", false);
         }
     }
 
@@ -244,10 +248,13 @@ public class Player : MonoBehaviour
    
     public void PlayerMovement()
     {
-        if (startBuilding)
+        if (!isDead)
         {
-            transform.position += Vector3.right * Time.deltaTime * speed;
-            isMoving = true;
+            if (startBuilding)
+            {
+                transform.position += Vector3.right * Time.deltaTime * speed;
+                isMoving = true;
+            }
         }
     }
 
@@ -255,32 +262,27 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Ground" && startBuilding && !isDead)
         {
-            Debug.Log("Ground");
             isJump = false;
             if (transform.eulerAngles.z > 45 && transform.eulerAngles.z < 315)
             {
                isDead = true;
-               Debug.Log("death");
             } 
             else if(transform.eulerAngles.z >= 45 && transform.eulerAngles.z <= 315 || transform.eulerAngles.z >= 30 && transform.eulerAngles.z <= 330
                     && GameManager.Instance.combo != 0)
             {
                 GameManager.Instance.combo = 0;
                 StartCoroutine(UIManager.Instance.ShowNearMissText());
-                Debug.Log("nearmiss");
             } 
             else if ((transform.eulerAngles.z >= 30 && transform.eulerAngles.z <= 330) || (transform.eulerAngles.z > 15 && transform.eulerAngles.z < 345)
                      && GameManager.Instance.combo != 0)
             {
                StartCoroutine(UIManager.Instance.ShowNormalText());
-               Debug.Log("normal");
 
             }
             else if ((transform.eulerAngles.z < 15 || transform.eulerAngles.z > 345) && GameManager.Instance.combo != 0)
             {
                 GameManager.Instance.combo = GameManager.Instance.combo + 1;
                 StartCoroutine(UIManager.Instance.ShowPerfectText());
-                Debug.Log("perfect");
             }
 
             if (!isDead)
@@ -293,15 +295,9 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Death")
         {
             isDead = true;
-            _rb.constraints = RigidbodyConstraints.None;
             _collider.enabled = !_collider.enabled;
-            _rb.useGravity = true;
         }
         
-        if (other.gameObject.tag == "JumpTarget")
-        {
-            StartCoroutine(UIManager.Instance.ShowJumpText());
-        }
         
     }
    

@@ -27,6 +27,13 @@ public class UIManager : MonoBehaviour
 
     [Header("GameStart Panel")]
     public GameObject gameStartPanel;
+    
+    [Header("RequriedGiftNumber Text")]
+    public TextMeshProUGUI RequriedGiftNumber;
+    
+    [Header("GiftNumber Text")]
+    public TextMeshProUGUI GiftNumber;
+    
     [Header("LevelComplete")]
     public GameObject levelCompletePanel;
 
@@ -42,10 +49,22 @@ public class UIManager : MonoBehaviour
     [Header("Combo Text ")]
     public GameObject comboText;
     public TextMeshProUGUI flip;
+
+    [Header("Win Text ")]
+    public GameObject winText;
     
-    [Header("JumpText Text ")]
-    public GameObject jumpText;
-    
+    [Header("Lose Text ")]
+    public GameObject loseText;
+
+    private void Start()
+    {
+        RequriedGiftNumber.text = "Required Gift to End: " + GameManager.Instance.RequiredGiftToEnd.ToString();
+    }
+
+    private void Update()
+    {
+        GiftNumber.text = "Gift: " + GameManager.Instance.numberOfGiftGiven.ToString();
+    }
 
     public void ShowLevelCompletePanel()
     {
@@ -108,13 +127,23 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-
-    public IEnumerator ShowJumpText()
+    public void ShowLoseText()
     {
-        jumpText.gameObject.SetActive(true);
-      //  iTween.ShakePosition(jumpText, iTween.Hash("y", jumpText.transform.position.y - 1f,  "time", .5f, "easetype", "easeInOutElastic"));
-        yield return new WaitForSeconds(.5f);
-        jumpText.SetActive(false);
+        loseText.SetActive(true);
+    }
+    
+    public void HideLoseText()
+    {
+        loseText.SetActive(false);
+    }
+    
+    public void ShowWinText()
+    {
+        winText.SetActive(true);
+    }
+    public void HideWinText()
+    {
+        winText.SetActive(false);
     }
     public IEnumerator ShowComboText()
     {
